@@ -1,0 +1,26 @@
+$primary-color : #1A2A33;
+$secondary : #1F3641;
+$soft-grey : #A8BFC9;
+$soft-white : #DBE8BD;
+$soft-orange : #FFC860;
+$orange : #F2B137;
+$blue-sky : #65E9E4;
+$blue-sea : #31C3BD;
+
+
+.bodycolor {
+    background-color: $primary-color;
+    margin-left: 42%;
+    margin-top: 30%;
+    align-items: center;
+}
+
+.homeScreenContainer {
+    margin: 0%;
+    top: 20%;
+    background: $secondary;
+    box-shadow: inset 0px -8px 0px $secondary;
+    border-radius: 15px;
+    width: 327px;
+    height: 205px;
+}
