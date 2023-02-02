@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'media';
 
 
 .bodycolor {
@@ -26,16 +27,87 @@
 }
 
 .firstMarkText {
-    Width: 191px;
-    Height: 20px;
-    text-align: center;
-    Font-family: Outfit;
-    Font-style: Bold;
-    Font-size: 16px Line;
-    height: 20px Line;
+    position: res;
+    width: 191px;
+    height: 20px;
+    font-family: Outfit;
+    font-style: Bold;
+    font-size: 16px;
+    height: 20px;
     // height: 100%;
     text-align: center;
-    text-align: Top Letter;
-    color : $soft-grey;
+    color: $soft-grey;
     text-transform: uppercase;
+    margin-left: 18%;
+}
+
+.insideScreenContainer {
+    display: block;
+    position: absolute;
+    width: 262px;
+    height: 72px;
+    margin-top: 15%;
+    left: 15%;
+    background-color: $primary-color;
+    border-radius: 10px;
+}
+
+.ObuttonChoice {
+    position: absolute;
+    width: 131px;
+    height: 54px;
+    top: 10%;
+    border-radius: 10px;
+    right: 0%;
+    background-color: $soft-grey;
+}
+
+.XbuttonChoice {
+    position: absolute;
+    width: 131px;
+    height: 54px;
+    top: 10%;
+    border-radius: 10px;
+    left: 0%;
+    background-color: $primary-color;
+}
+
+.XbuttonLogo {
+    width: 32px;
+    height: 32px;
+}
+
+.ObuttonLogo {
+    width: 32px;
+    height: 32px;
+}
+
+.remember{
+    text-transform: uppercase;
+    position: absolute;
+    top: 47%;
+    height: 18px;
+    color: $soft-grey;
+    left: 22%;
+    opacity: 50%;
+}
+
+.newGameCpu{
+    width: 327px;
+    height: 56px;
+    text-transform: uppercase;
+    background-color: $orange;
+    border-radius: 15px;
+    margin-top: 5%;
+    box-shadow: 0px 8px 0px 0px #CC8B13;
+}
+
+.newGamePlayer{
+    width: 327px;
+    height: 56px;
+    background-color: $blue-sea;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-top: 5%;
+    box-shadow: 0px 8px 0px 0px #118C87;
 }
