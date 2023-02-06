@@ -1,0 +1,28 @@
+@import 'colors';
+
+.bodycolor {
+    background-color: $primary-color;
+}
+
+.turnContainer{
+    position: absolute;
+    background-color: $secondary;
+    width: 96px;
+    height: 40px;
+    margin-left: 40%;
+    border-radius: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.restartButton{
+    position: absolute;
+    color: $soft-grey;
+    margin-left: 85%;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
